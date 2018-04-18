@@ -1,0 +1,110 @@
+@charset "UTF-8";
+.header{
+    width: 100%;
+    height: 90%;
+    background: url(../img/beijing.jpg) no-repeat;
+    background-size: 100% 900px;
+    position: fixed;
+	left: 0;
+    right: 0;
+}
+.div{
+    background: #f6f6f6;
+    position: relative;
+    font-size: 18px;
+    line-height: 20px;
+    position: fixed;
+	left: 0;
+    right: 0;
+	z-index: 100;
+}
+.brand{
+    color: #777;
+}
+.brand:hover{
+    color: #333;
+    text-decoration: none;
+}
+.color{
+    color: #777;
+}
+.color:hover{
+    color: #333;
+}
+.ul li{
+    float: left;
+    position: relative;
+    line-height: 20px;
+}
+.divider{
+    border-right: 1px solid #fff;
+    border-left: 1px solid #f4f4f4;
+}
+.con{
+    position: relative;
+    top: 300px;
+    overflow: hidden;
+}
+.sourehan{
+    color: #fff;
+    font-size: 70px;
+    line-height: 80px;
+    display: none;
+    
+}
+@media(max-width:767px){
+    .sourehan{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .tex{
+        font-size: 23px;
+    }
+}
+.tex{
+    color: #ccc;
+    display: none;
+    
+}
+
+.img-play{
+    width: 33px;
+    height: 33px;
+    animation-duration: 0.1s;
+    animation-delay: 2s;
+}
+.div-he{
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    top: 700px;
+    background: #fff;
+}
+.huo{
+    width: 65%;
+    height: 65%;
+    background: url(../img/tech-03.png);
+    background-size: 100% 100%;
+}
+.shu{
+    width: 65%;
+    height: 65%;
+    background: url(../img/tech-01.png);
+    background-size: 100% 100%;
+}
+.div-hu{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    top: 700px;
+    background: #fff;
+}
+
+
+
+
+
+
+
